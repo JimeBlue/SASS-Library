@@ -29,3 +29,34 @@ img {
   max-width: 100%;
 }
 
+// theme colors
+$primary: #326dee !default;
+$secondary: #1ac886 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+
+h1{
+    color: $primary;
+}
+
+a {
+    color: $secondary;
+}
+
+button {
+    color: white;
+    border: 0;
+    background: $primary;
+}
+
+.error {
+    color: $error;
+    border-color: $error;
+    border-style: solid;
+}
+
+.notification {
+    color: $secondary;
+    border-color: $secondary;
+    border-style: solid;
+}
